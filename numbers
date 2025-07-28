@@ -4,12 +4,12 @@ int main() {
  int numbers;
 
  printf("enter an intiger: ");
- scanf("%d",&number);
+ scanf("%d",&num);
 
  if (number %2 == 0)
-    printf("%d is even.\n",number);
+    printf("%d is even.\n",num);
    else
-     printf("%d is odd.\n",number);
+     printf("%d is odd.\n",num);
 
      return 0;
      } 
